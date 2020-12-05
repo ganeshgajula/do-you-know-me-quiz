@@ -273,13 +273,6 @@ if (levelTwoScore >= 41) {
   }
   totalScore(score);
 }
-// var finalScore = score;
-
-for (var k = 0; k < highScorers.length; k++) {
-  var arrScores = [];
-  arrScores.push(highScorers[k].points);
-}
-var minPoints = Math.min(arrScores);
 
 function totalScore(finalScore) {
   for (var k = 0; k < highScorers.length; k++) {
